@@ -1,0 +1,827 @@
+*{
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 640px){
+	.title-site{
+	margin-top: 36px;
+	margin-left: -4%;
+	display: flex;
+	line-height: 2;
+	justify-content: left;
+	margin-bottom: 1%;
+	font-size: 35px;
+
+	
+	}
+	
+	.header-site{
+		padding: 5px 3px 30px 53px;
+		margin-left: 1%;
+	}
+	nav.nav-site ul{
+        margin-top: -9%;      
+		margin-bottom: 18%;
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		padding: 1%;
+		justify-content: space-between;
+		margin: -9%;
+		margin-top:1%;
+		list-style: none;
+	}
+	.intro1 {
+		font-size: 27px;
+		margin-top: 67%;
+		margin-left: 7s%;
+		color: white;
+		text-shadow: 2px 0 black;
+	}
+
+	.nav-site ul li a{
+		margin: 4%;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 60px;
+	}
+	.intro2{
+		font-size: 23px;
+		text-align: center;
+		margin-top: -4%;
+		margin-left: 5%;
+	}
+	.btn-action{
+		font-size: 1.2rem;
+		padding: 4%;
+	}
+	.fondo-principal{
+		background-image: url(../img/fondo/blackberry/fondocorto.png);
+		background-size: cover;
+		background-position: center;
+		height: 974px;
+
+	}
+	h2.title-section{
+		font-size: 36px;
+		margin-bottom: -13%;
+
+	}
+
+	section.section-info.section-aboutus{
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.pictureandtext {
+		display: block;
+		
+	}
+
+	.aboutus{
+		
+	}
+
+	.aboutus img{
+		margin-top: 70px;
+		/*height: 201px;*/
+		object-fit: cover;
+		object-position: center;
+		margin-left: 11%;
+		width: 100%;
+		height: auto;
+		margin-right: 11%;
+
+	}
+
+	.text{
+		margin-top: 0px;
+		margin-left: 9%;
+		margin-right: 9%;
+	}
+
+	h3.ourstory-section{
+		margin-left: -1%;
+	}
+
+
+
+	p.description-ourstory{
+		margin-bottom: 30px;
+	}
+	h2.title-h2{
+		font-size: 21px;
+		margin-top: 0px;
+		margin-bottom: 21px;
+	}
+
+	p.text-cupcake{
+		font-size: 17px;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.imagecupcake img{
+		background-image: url(../img/seccion2/blackberry/cupcakebg.png);
+		margin-top: -16px;
+		object-fit: cover;
+		object-position: center;
+		width: 100%;
+		margin-bottom: 3%;
+	}
+
+	.cupcake{
+		margin-bottom: 4px;
+		margin-top: 28%;
+	}
+
+ 	#OurProducts{
+ 		
+ 		margin-top: 107%;
+ 	}
+
+ 	.titulo{
+ 		margin-bottom: 2.3em;
+
+ 	}
+ 	.titulo h2.ourproducts{
+ 		font-size: 27px;
+ 		margin-top: -12%;s
+ 	}
+
+ 	.home-products{
+ 		display:block;
+ 		margin-bottom: 36px;
+ 	}
+
+ 	.item-info{
+ 		margin-bottom: 7px;
+ 		margin-top: 11px;
+ 		margin-left: 14px;
+ 	}
+
+ 	h2.OurEvents{
+ 		font-size: 36px;
+ 	}
+
+ 	.colum{
+ 		display:block;
+ 	}
+
+ 	.colum-list{
+ 		display:block;
+ 	}
+
+ 	.imagebg img{
+ 		display: block;
+ 	}
+
+ 	.event-title{
+ 		top:68%;
+ 		display:block;
+ 	}
+
+ 	.event-title-wrap{
+ 		position:relative;
+ 	}
+
+ 	.event-date{
+ 		position: relative;
+ 		left: 0px;
+ 		margin-top: 0px;
+ 		font-size: 0.8rem;
+ 		width: 3.1em;
+ 		height: 3.9em;
+ 		text-align: center;
+ 		right: 1.4em;
+ 	}	
+
+ 	.colum-item-name{
+ 		font-size: 17px;
+ 		width: 31%;
+ 		margin-left: 34%;
+ 		position: absolute;
+ 		margin-top: -108.2%;
+ 	}
+
+ 	.colum-shadow{
+ 		margin-bottom: 28px;
+ 	}
+
+ 	.button { 
+ 	width: 22%;
+ 	font-size: 11px;
+ 	position: absolute;
+ 	padding: 2%;
+ 	margin-top: 1%;
+ 	height: auto;
+ 	 }
+ 	 .colum-item.shadow{
+ 	 	margin-right:20px;
+ 	 	margin-bottom: 28px;
+ 	 }
+ 	 .colum-item-name1{
+ 	 	margin-left: 37%;
+ 	 	margin-top: -32.5%;
+ 	 	position: absolute;
+ 	 	font-size: 17px;
+ 	 	width: 35%;
+ 	 }
+ 	 .colum-item-name2{
+ 	 	margin-top: 44%;
+ 	 	margin-left: 38%;
+ 	 	width: 31%;
+ 	 	font-size: 17px;
+
+ 	 }
+ 	 .imagebg img{
+ 	 	background-image: url(../img/products/cake.jpg);
+ 	 	height: auto;
+ 	 	object-position: center;
+ 	 	object-fit: cover;
+ 	 	width: 100%;
+
+ 	 }
+ 	 .imagebg2 img{
+ 	 	width: 100%;
+ 	 	height: auto;
+ 	 	object-position: center;
+ 	 	object-fit: cover;
+ 	 	background-image: url(../img/products/dona.jpg);
+ 	 }
+
+ 	 .imagebg3 img{
+ 	 	width: 100%;
+ 	 	height: auto;
+ 	 	object-fit: cover;
+ 	 	object-position: center;
+ 	 	background-image: url(../img/products/macarrons.jpg);
+ 	 }
+
+    .imagebg4 img{
+    	width: 100%;
+    	height: auto;
+    	object-fit: cover;
+    	object-position: center;
+    	background-image: url(../img/products/muffin.jpg);
+    }
+
+ 	.imagebg5 img{
+ 		width: 100%;
+ 		height: auto;
+ 		object-position: center;
+ 		object-fit: cover;
+ 		background-image: url(../img/products/tarte.jpg);
+ 	}
+     
+     .event-button1{
+     	padding: 2%;
+     	margin-top: 0%;
+     	margin-left: 0%;
+     }
+
+ 	 .event-button2{
+ 	 	top: 34%;
+ 	 	left: 8%;
+ 	 }
+
+ 	 .event-button3{
+ 	 	top: 68.5%;
+ 	 	left: 8%;
+ 	 }	
+
+ 	 #OurEvents{
+ 	 	margin-top: 5%;
+ 	 	margin-bottom: 0px;
+ 	 }
+
+ 	 .colum-picture.imagebg{
+ 	 	
+ 	 }
+
+
+
+ 	 .columna.footer-colum{
+ 	 	display: block;
+ 	 	text-align: center;
+ 	 	margin-top: 2px;
+ 	 }
+ 	 .col-content.top-content{
+ 	 	margin-top: -2px;
+ 	 	font-size: 18px;
+ 	 	margin-left: 42px;
+ 	 }
+ 	 .col-title{
+ 	 	margin-top: 2px;
+ 	 }
+ 	 .col{
+ 	 	margin-top: 1px;
+ 	 	padding-top: 52px;
+ 	 }
+ 	 .cards{
+ 	 	margin-top: 16px;
+ 	 }
+}
+
+
+
+@media screen and (min-device-width: 641px) and (max-width: 767px){
+
+	.title-site{
+	margin-top: 36px;
+	margin-left: -4%;
+	display: flex;
+	line-height: 2;
+	justify-content: left;
+	margin-bottom: 1%;
+	font-size: 35px;
+
+	
+	}
+	
+	.header-site{
+		padding: 5px 3px 30px 53px;
+		margin-left: 1%;
+	}
+	nav.nav-site ul{
+        margin-top: -9%;      
+		margin-bottom: 18%;
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		padding: 1%;
+		justify-content: space-between;
+		margin: -9%;
+		margin-top:1%;
+		list-style: none;
+	}
+	.intro1 {
+		font-size: 27px;
+		margin-top: 67%;
+		margin-left: 7s%;
+		color: white;
+		text-shadow: 2px 0 black;
+	}
+
+	.nav-site ul li a{
+		margin: 4%;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 60px;
+	}
+	.intro2{
+		font-size: 23px;
+		text-align: center;
+		margin-top: -4%;
+		margin-left: 5%;
+	}
+	.btn-action{
+		font-size: 1.2rem;
+		padding: 4%;
+	}
+	.fondo-principal{
+		background-image: url(../img/fondo/blackberry/fondocorto.png);
+		background-size: cover;
+		background-position: center;
+		height: 974px;
+
+	}
+	h2.title-section{
+		font-size: 36px;
+		margin-bottom: -13%;
+
+	}
+
+	section.section-info.section-aboutus{
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	.pictureandtext {
+		display: block;
+		
+	}
+
+	.aboutus{
+		
+	}
+
+	.aboutus img{
+		margin-top: 70px;
+		/*height: 201px;*/
+		object-fit: cover;
+		object-position: center;
+		margin-left: 11%;
+		width: 100%;
+		height: auto;
+		margin-right: 11%;
+
+	}
+
+	.text{
+		margin-top: 0px;
+		margin-left: 9%;
+		margin-right: 9%;
+	}
+
+	h3.ourstory-section{
+		margin-left: -1%;
+	}
+
+
+
+	p.description-ourstory{
+		margin-bottom: 30px;
+	}
+	h2.title-h2{
+		font-size: 21px;
+		margin-top: 0px;
+		margin-bottom: 21px;
+	}
+
+	p.text-cupcake{
+		font-size: 17px;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.imagecupcake img{
+		background-image: url(../img/seccion2/blackberry/cupcakebg.png);
+		margin-top: -16px;
+		object-fit: cover;
+		object-position: center;
+		width: 100%;
+		margin-bottom: 3%;
+	}
+
+	.cupcake{
+		margin-bottom: 4px;
+		margin-top: 28%;
+	}
+
+ 	#OurProducts{
+ 		
+ 		margin-top: 107%;
+ 	}
+
+ 	.titulo{
+ 		margin-bottom: 2.3em;
+
+ 	}
+ 	.titulo h2.ourproducts{
+ 		font-size: 27px;
+ 		margin-top: -12%;s
+ 	}
+
+ 	.home-products{
+ 		display:block;
+ 		margin-bottom: 36px;
+ 	}
+
+ 	.item-info{
+ 		margin-bottom: 7px;
+ 		margin-top: 11px;
+ 		margin-left: 14px;
+ 	}
+
+ 	h2.OurEvents{
+ 		font-size: 36px;
+ 	}
+
+ 	.colum{
+ 		display:block;
+ 	}
+
+ 	.colum-list{
+ 		display:block;
+ 	}
+
+ 	.imagebg img{
+ 		display: block;
+ 	}
+
+ 	.event-title{
+ 		top:68%;
+ 		display:block;
+ 	}
+
+ 	.event-title-wrap{
+ 		position:relative;
+ 	}
+
+ 	.event-date{
+ 		position: relative;
+ 		left: 0px;
+ 		margin-top: 0px;
+ 		font-size: 0.8rem;
+ 		width: 3.1em;
+ 		height: 3.9em;
+ 		text-align: center;
+ 		right: 1.4em;
+ 	}	
+
+ 	.colum-item-name{
+ 		font-size: 17px;
+ 		width: 31%;
+ 		margin-left: 34%;
+ 		position: absolute;
+ 		margin-top: -103.2%;
+ 	}
+
+ 	.colum-shadow{
+ 		margin-bottom: 28px;
+ 	}
+
+ 	.button { 
+ 	width: 22%;
+ 	font-size: 11px;
+ 	position: absolute;
+ 	padding: 2%;
+ 	margin-top: 1%;
+ 	height: auto;
+ 	 }
+ 	 .colum-item.shadow{
+ 	 	margin-right:20px;
+ 	 	margin-bottom: 28px;
+ 	 }
+ 	 .colum-item-name1{
+ 	 	margin-left: 37%;
+ 	 	margin-top: -30.5%;
+ 	 	position: absolute;
+ 	 	padding: 0.3em 0;
+ 	 	font-size: 17px;
+ 	 	width: 30%;
+ 	 }
+ 	 .colum-item-name2{
+ 	 	margin-top: 45%;
+ 	 	margin-left: 38%;
+ 	 	width: 31%;
+ 	 	font-size: 17px;
+
+ 	 }
+ 	 .imagebg img{
+ 	 	background-image: url(../img/products/cake.jpg);
+ 	 	height: auto;
+ 	 	object-position: center;
+ 	 	object-fit: cover;
+ 	 	width: 100%;
+
+ 	 }
+ 	 .imagebg2 img{
+ 	 	width: 100%;
+ 	 	height: auto;
+ 	 	object-position: center;
+ 	 	object-fit: cover;
+ 	 	background-image: url(../img/products/dona.jpg);
+ 	 }
+
+ 	 .imagebg3 img{
+ 	 	width: 100%;
+ 	 	height: auto;
+ 	 	object-fit: cover;
+ 	 	object-position: center;
+ 	 	background-image: url(../img/products/macarrons.jpg);
+ 	 }
+
+    .imagebg4 img{
+    	width: 100%;
+    	height: auto;
+    	object-fit: cover;
+    	object-position: center;
+    	background-image: url(../img/products/muffin.jpg);
+    }
+
+ 	.imagebg5 img{
+ 		width: 100%;
+ 		height: auto;
+ 		object-position: center;
+ 		object-fit: cover;
+ 		background-image: url(../img/products/tarte.jpg);
+ 	}
+     
+     .event-button1{
+     	padding: 2%;
+     	margin-top: 0%;
+     	margin-left: 0%;
+     }
+
+ 	 .event-button2{
+ 	 	top: 34%;
+ 	 	left: 8%;
+ 	 }
+
+ 	 .event-button3{
+ 	 	top: 68.5%;
+ 	 	left: 8%;
+ 	 }	
+
+ 	 #OurEvents{
+ 	 	margin-top: 5%;
+ 	 	margin-bottom: 0px;
+ 	 }
+
+ 	 .colum-picture.imagebg{
+ 	 	
+ 	 }
+
+
+
+ 	 .columna.footer-colum{
+ 	 	display: block;
+ 	 	text-align: center;
+ 	 	margin-top: 2px;
+ 	 }
+ 	 .col-content.top-content{
+ 	 	margin-top: -2px;
+ 	 	font-size: 18px;
+ 	 	margin-left: 42px;
+ 	 }
+ 	 .col-title{
+ 	 	margin-top: 2px;
+ 	 }
+ 	 .col{
+ 	 	margin-top: 1px;
+ 	 	padding-top: 52px;
+ 	 }
+ 	 .cards{
+ 	 	margin-top: 16px;
+ 	 }
+}
+
+
+
+ 	 @media screen and (min-device-width: 768px) and (max-width: 1024px){
+ 	 	h1.title-site {
+ 	 		font-size: 57px;
+ 	 		margin-bottom: 1px;
+ 	 	}
+ 	 	.nav-site ul li a{
+ 	 		font-size: 25px;
+ 	 		font-weight: 700;
+ 	 		margin: 8px;
+ 	 	}
+ 	 	.intro1{
+ 	 		margin-top: 71px;
+ 	 	}
+ 	 	.intro2{
+ 	 		font-size: 43px;
+ 	 		margin-left: 45px;
+ 	 	}
+ 	 	.btn-action{
+ 	 		padding: 48px;
+ 	 		margin-top:86px;
+ 	 	}
+ 	 	.text{
+ 	 		margin-top: 6px;
+ 	 		margin-left: 5%;
+ 	 		margin-right: 5%;
+ 	 	}
+ 	 	.pictureandtext{
+ 	 		display: block;
+ 	 	}
+ 	 	.aboutus img{
+ 	 		margin-top: 27px;
+ 	 		width: 100%;
+ 	 		height: auto;
+ 	 		object-position: center;
+ 	 		object-fit: cover;
+ 	 		margin-left: 5%;
+ 	 	}
+ 	 	p.description-ourstory{
+ 	 		font-size: 28px;
+ 	 		text-align: left;
+ 	 		margin-bottom: 39px;
+ 	 	}
+ 	 	.button{
+ 	 		font-size: 1.4rem;
+ 	 		padding: 10px 2em;
+ 	 	}
+ 	 	#OurProducts{
+ 	 		margin-top: -7%;
+ 	 	}
+ 	 	.home-products{
+ 	 		margin-left: 163px;
+ 	 		width: 53%;
+ 	 		font-size: 4rem;
+ 	 		margin-top: 2%;
+ 	 		display:block;
+ 	 	}
+
+ 	 	#OurEvents{
+ 	 		margin-top: 4%;
+ 	 	}
+ 	 	.imagebg img{
+ 	 		background-image: url(../img/products/cake.jpg);
+ 	 		display: block;
+ 	 		object-fit: cover;
+ 	 		object-position: center;
+ 	 		width: 100%;
+ 	 		height: auto;
+ 	 	}
+
+ 	 	.imagebg2 img{
+ 	 		background-image: url(../img/products/dona.jpg);
+ 	 		width: 100%;
+ 	 		object-fit: cover;
+ 	 		object-position: center;
+ 	 		height: auto;
+ 	 	}
+
+ 	 	.imagebg3 img{
+ 	 		background-image: url(../img/products/macarrons.jpg);
+ 	 		width: 100%;
+ 	 		height: auto;
+ 	 		object-fit: cover;
+ 	 		object-position: center;
+ 	 	}
+
+ 	 	.imagebg4 img{
+ 	 		background-image: url(../img/products/muffin.jpg);
+ 	 		width: 100%;
+ 	 		height: auto;
+ 	 		object-fit: cover;
+ 	 		object-position: center;
+ 	 	}
+
+ 	 	.imagebg5 img{
+ 	 		background-image: url(../img/products/tarte.jpg);
+ 	 		width: 100%;
+ 	 		height: auto;
+ 	 		object-fit: cover;
+ 	 		object-position: center;
+ 	 	}
+
+ 	 	.colum-list{
+ 	 		display: block;
+ 	 	}
+ 	 	.colum-item-name{
+ 	 		margin-left: 37%;
+ 	 		margin-top: -96.3%;
+ 	 		width: 26%;
+ 	 		position: absolute;
+ 	 	}
+ 	 	.event-date {
+ 	 		width: 4.1em;
+ 	 		margin-top: 59px;
+ 	 		position: relative;
+ 	 		right: 60px;
+ 	 		margin: 60px;
+ 	 		top: -120px;
+ 	 		padding-top: 4px;
+ 	 		margin-left: 60px;
+ 	 	}
+ 	 	.event-title{
+ 	 		top: 68%;
+ 	 	}
+ 	 	.colum-item.shadow{
+ 	 		margin-top: -84px;
+ 	 		margin-right: 20px;
+ 	 	}
+ 	 	.colum-item-name1{
+ 	 		margin-top:-31%;
+ 	 		margin-left: 38%;
+ 	 		width: 26%;
+ 	 		padding: 11px;
+ 	 	}
+ 	 	.colum-item-name2{
+ 	 		margin-left: 39%;
+ 	 		margin-top: 35.4%;
+ 	 		padding: 11px;
+ 	 		width: 26%;
+ 	 	}
+ 	 	.button{
+ 	 		font-size: 30px;
+ 	 		padding: 9px;
+ 	 		width: 187px;
+ 	 		margin-top: 0%;
+ 	 		text-align: center;
+ 	 		margin-left: 0%;
+ 	 	}
+
+ 	 	.event-button1{
+ 	 	margin-left: 0%;
+ 	 	}
+
+ 	 	.event-button2{
+ 	 		top: 31.6%;
+ 	 		left: 8%;
+ 	 	}
+ 	 	.event-button3{
+ 	 		top: 63.2%;
+ 	 		left: 8%;
+ 	 	}
+ 	 	article{
+ 	 		margin-bottom: 2px;
+ 	 	}
+ 	 	.imagecupcake img{
+ 	 		object-fit: cover;
+ 	 		object-position: center;
+ 	 		width: 100%;
+ 	 		height: auto;
+ 	 		margin-bottom: 0px;
+
+ 	 	}
+ 	 }
+
+
+ 	
